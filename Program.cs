@@ -15,16 +15,9 @@ namespace Cities
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
-
-
-            // CreateWebHostBuilder()
-            // etc
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-                        // WebHost.CreateDefaultBuilder(args)
-                        //     .UseStartup<Startup>();
-
                         new WebHostBuilder()
                             .UseUrls("http://*:5000")
                             .UseKestrel()
