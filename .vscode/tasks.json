@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Cities.csproj"
+                "${workspaceFolder}/src/Cities.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Cities.csproj"
+                "${workspaceFolder}/src/Cities.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -28,7 +28,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/Cities.csproj"
+                "${workspaceFolder}/src/Cities.csproj"
             ],
             "problemMatcher": "$tsc"
         }
